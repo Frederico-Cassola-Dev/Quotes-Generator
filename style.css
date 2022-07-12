@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/r9RW20TrQ0Y/1600x900");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    display: block;
+    margin: 3rem auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    border-bottom: 4px solid aqua;
+    border-radius: 50px;
+}
+
+.quotes-container {
+    height: 350px;
+    margin: 0 4rem;
+}
+
+.quote {
+    font-family: 'BioRhyme', serif;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.author, .profession, .date {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+    color: rgb(104, 223, 19);
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.profession {
+    font-size: 1.5rem;
+    color: orange;
+}
+
+.date {
+    font-size: 1.5rem;
+    color: orange;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 4rem auto;
+    border-radius: 10px;
+    border-color: aqua;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
