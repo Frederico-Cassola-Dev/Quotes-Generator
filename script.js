@@ -22,28 +22,22 @@ function getQuote() {
 
 const quotes = [
     {
-        quote: "Celui qui cherche une femme belle, bonne et intelligente, n'en cherche pas une mais trois.",
-        author: "Oscar Wilde",
-        profession: "Artiste, écrivain",
-        date: "1854 - 1900"
+        quote: "Connais-toi toi-même.",
+        author: "Socrate",
+        profession: "Philosophe",
+        date: "-469 - -399"
     },
     {
-        quote: "Aimer, ce n'est pas se regarder l'un l'autre, c'est regarder ensemble dans la même direction.",
-        author: "Antoine De Saint-Exupéry",
-        profession: "Artiste, Aviateur, écrivain",
-        date: "1900 - 1944"
+        quote: "Ce que je sais, c’est que je ne sais rien.",
+        author: "Socrate",
+        profession: "Philosophe",
+        date: "-469 - -399"
     },
     {
-        quote: "Enfer chrétien, du feu. Enfer païen, du feu. Enfer mahométan, du feu. Enfer hindou, des flammes. A en croire les religions, Dieu est né rôtisseur.",
-        author: "Victor Hugo",
-        profession: "Artiste, écrivain, Poète, Romancier",
-        date: "1802 - 1885"
-    },
-    {
-        quote: "Il n'y a point de bonheur sans courage, ni de vertu sans combat.",
-        author: "Jean-Jacques Rousseau",
-        profession: "Artiste, Auteur d'ouvrages philosophiques, écrivain, Philosophe",
-        date: "1712 - 1778"
+        quote: "Il faut apprendre à philosopher, et non pas la philosophie.",
+        author: "Emmanuel Kant",
+        profession: "Philosophe",
+        date: "1724 - 1804"
     },
     {
         quote: "Dans la vie on ne fait pas ce que l'on veut mais on est responsable de ce que l'on est.",
@@ -52,11 +46,113 @@ const quotes = [
         date: "1905 - 1980"
     },
     {
-        quote: "Tu dois devenir l'homme que tu es. Fais ce que toi seul peux faire. Deviens sans cesse celui que tu es, sois le maître et le sculpteur de toi-même.",
-        author: "Friedrich Nietzsche",
-        profession: "Artiste, écrivain, Philosophe",
-        date: "1844 - 1900"
+        quote: "Nul n'est méchant volontairement.",
+        author: "Platon",
+        profession: "Philosophe",
+        date: "-427 - -348"
     },
+    {
+        quote: "La connaissance de l'homme ne peut pas s'étendre au-delà de son expérience propre.",
+        author: "John Locke",
+        profession: "Philosophe",
+        date: "1632 - 1704"
+    },
+    {
+        quote: "Les philosophes n'ont fait qu'interpréter le monde, nous avons maintenant à le transformer.",
+        author: "Karl Marx",
+        profession: "Philosophe, historien, sociologue, économiste, journaliste, théoricien de la révolution, socialiste et communiste prussien.",
+        date: "1818 - 1883"
+    },
+    {
+        quote: "Si tu n'es pas Socrate, tu dois vivre comme si tu voulais être Socrate.",
+        author: "Épicure",
+        profession: "Philosophe",
+        date: "-341 - -270"
+    },
+    {
+        quote: "Rien de grand ne s'est fait dans le monde sans passion.",
+        author: "Hegel",
+        profession: "Philosophe",
+        date: "1770 - 1831"
+    },
+    {
+        quote: "Le coeur a ses raisons que la raison ignore.",
+        author: "Blaise Pascal",
+        profession: "Philosophe, mathématicien, physicien, inventeur, philosophe, moraliste et théologien français",
+        date: "1623 - 1662"
+    },
+    {
+        quote: "La liberté est le droit de faire tout ce que les lois permettent.",
+        author: "Montesquieu",
+        profession: "Philosophe, penseur politique, précurseur de la sociologie et écrivain français des Lumières",
+        date: "1689 - 1755"
+    },
+    {
+        quote: "N’attends pas que les événements arrivent comme tu le souhaites ; décide de vouloir ce qui arrive et tu seras heureux.",
+        author: "Épictète",
+        profession: "Philosophe",
+        date: "50 - 125"
+    },
+    {
+        quote: "On ne se baigne jamais deux fois dans le même fleuve.",
+        author: "Héraclite",
+        profession: "Philosophe",
+        date: "-385 - -322"
+    },
+    {
+        quote: "Celui qui cherche la sagesse est un sage, celui qui croit l'avoir trouvée est un fou.",
+        author: "Sénèque",
+        profession: "Philosophe, dramaturge, poète et écrivain",
+        date: "8 - 65"
+    },
+    {
+        quote: "Il n'y a qu'une route vers le bonheur : c'est de renoncer aux choses qui ne dépendent pas de notre volonté.",
+        author: "Épictète",
+        profession: "Philosophe",
+        date: "50 - 125"
+    },
+    {
+        quote: "C'est un homme sage celui qui ne regrette pas ce qu'il n'a pas mais se réjouit de ce qu'il possède.",
+        author: "Épictète",
+        profession: "Philosophe",
+        date: "50 - 125"
+    },
+    {
+        quote: "Ce ne sont pas les événements qui perturbent l'homme mais sa façon de les interpréter.",
+        author: "Épictète",
+        profession: "Philosophe",
+        date: "50 - 125"
+    },
+    {
+        quote: "Celui qui est le maître de lui même est plus grand que celui qui est le maître du monde.",
+        author: "Bouddha",
+        profession: "Chef spirituel, Religieux",
+        date: ""
+    },
+    {
+        quote: "Ne demeure pas dans le passé, ne rêve pas du futur, concentre ton esprit sur le moment présent.",
+        author: "Bouddha",
+        profession: "Chef spirituel, Religieux",
+        date: ""
+    },
+    {
+        quote: "Vivons donc heureusement, sans haïr ceux qui nous haïssent.",
+        author: "Bouddha",
+        profession: "Chef spirituel, Religieux",
+        date: ""
+    },
+    {
+        quote: "Vous devez être le changement que vous voulez voir dans ce monde.",
+        author: "Gandhi",
+        profession: "Homme politique, Philosophe, Révolutionnaire ",
+        date: "1869 - 1948"
+    },
+    // {
+    //     quote: ".",
+    //     author: "",
+    //     profession: "",
+    //     date: ""
+    // },
 
         
 ];

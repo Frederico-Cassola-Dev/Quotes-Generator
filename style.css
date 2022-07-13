@@ -10,18 +10,26 @@ body {
 }
 
 body {
-    background-image: url("https://source.unsplash.com/r9RW20TrQ0Y/1600x900");
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
 header {
+    position: relative;
     display: block;
     margin: 3rem auto;
     font-family: 'Roboto Mono', monospace;
     font-size: 2rem;
+    z-index: 1;
 }
 
 h1::after {
@@ -32,8 +40,10 @@ h1::after {
 }
 
 .quotes-container {
+    position: relative;
     height: 350px;
     margin: 0 4rem;
+    z-index: 1;
 }
 
 .quote {
@@ -63,6 +73,7 @@ h1::after {
 }
 
 .button {
+    position: relative;
     display: block;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -74,4 +85,6 @@ h1::after {
     padding: 10px;
     background-color: transparent;
     color: white;
+    z-index: 1;
+
 }
