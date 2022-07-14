@@ -1,3 +1,4 @@
+window.addEventListener('load', getQuote);
 window.addEventListener('load', startInterval);
 
 const quote = document.querySelector(".quote");
@@ -10,17 +11,13 @@ const profession = document.querySelector(".profession");
 const date = document.querySelector(".date");
 
 // INTERVAL TIME
-const time = 500;
-
+const time = 3000;
 
 //  CLICK ACTION
 newQuote.addEventListener("click", getQuote);
 pause.addEventListener("click", pauseQuote);
 before.addEventListener("click", beforeQuote);
 start.addEventListener("click", startInterval);
-
-
-
 
 //  TIMER RANDOM QUOTE
 let timeInterval;
@@ -31,7 +28,7 @@ let randomNumber;
 
 let i = -1;
 
-//  INITIATED WINDOW NEW QUOTE
+//  INITIATE WINDOWS NEW QUOTE
 function getQuote() {
     // timeInterval = setInterval(getQuote, time);
 
@@ -48,12 +45,9 @@ function getQuote() {
 
     // Save the showen object in to tempNewQuote
     tempNewQuote.push(quotes[randomNumber]);
-
-    console.log(`This is the first quote Index: ${i}`);
-    console.log(`Quote: ${tempNewQuote[i].quote}`);
 }
 
-
+//  SHOW THE BEFORE QUOTE
 function beforeQuote() {
     if (i <= 0) {
         i = 0;
@@ -69,9 +63,6 @@ function beforeQuote() {
         date.innerHTML = tempNewQuote[i].date;
         tempNewQuote.pop(i)
     }
-    // console.log(tempNewQuote);
-    // console.log(`This is the before quote Index: ${i}`);
-    // console.log(`Quote: ${tempNewQuote[i].quote}`);
 }
 
 //  START TIME RANDOM QUOTE
@@ -210,13 +201,5 @@ const quotes = [
         author: "Gandhi",
         profession: "Homme politique, Philosophe, Révolutionnaire ",
         date: "(1869 - 1948)"
-    },
-    // {
-    //     quote: ".",
-    //     author: "",
-    //     profession: "",
-    //     date: ""
-    // },
-
-
+    }
 ];
