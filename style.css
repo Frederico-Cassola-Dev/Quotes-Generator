@@ -18,9 +18,9 @@ body {
 
 img {
     position: absolute;
-    width: 100%;
-    height: 100%;
     filter: blur(10px);
+    width: 100vw;
+    height: 100vh;
 }
 
 header {
@@ -49,11 +49,14 @@ h1::after {
 .quote {
     font-family: 'BioRhyme', serif;
     font-size: 3rem;
+    font-weight: 900;
     color: white;
     text-align: center;
 }
 
-.author, .profession, .date {
+.author,
+.profession,
+.date {
     font-family: 'Roboto Mono', monospace;
     font-size: 2.5rem;
     color: rgb(104, 223, 19);
@@ -72,7 +75,15 @@ h1::after {
     color: orange;
 }
 
-.button {
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    z-index: 1;
+}
+
+.btn {
     position: relative;
     display: block;
     text-align: center;
