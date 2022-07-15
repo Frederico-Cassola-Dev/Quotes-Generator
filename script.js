@@ -11,7 +11,7 @@ const profession = document.querySelector(".profession");
 const date = document.querySelector(".date");
 
 // INTERVAL TIME
-const time = 5000;
+const time = 7000;
 
 //  CLICK ACTION
 newQuote.addEventListener("click", getQuote);
